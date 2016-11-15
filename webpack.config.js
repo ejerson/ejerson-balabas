@@ -19,7 +19,7 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 
 module.exports = {
   entry: [
-    './src/index.js'
+    '../src/index.js'
   ],
   output: {
     path: __dirname,
@@ -33,7 +33,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
         query: {
-          presets: ['babel-preset-react', 'babel-preset-es2015', 'babel-preset-stage-1']
+          presets: ['react', 'es2015', 'stage-1']
         }
       },
       {
