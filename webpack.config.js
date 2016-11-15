@@ -54,7 +54,8 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx'],
+    modulesDirectories: ['build/node_modules']
   },
   devServer: {
     historyApiFallback: true,
