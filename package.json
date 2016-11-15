@@ -23,6 +23,13 @@
   ],
   "author": "Ejerson Balabas",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "stage-1",
+      "es2015",
+      "react"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/0e0/ejerson-balabas/issues"
   },
