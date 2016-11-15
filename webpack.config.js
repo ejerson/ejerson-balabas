@@ -30,9 +30,9 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'babel',
         query: {
-          presets: ['react', 'latest', 'stage-1', 'es2015']
+        presets: ['react', 'es2015', 'stage-1']
         }
       },
       {
@@ -42,7 +42,7 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
-            'file?hash=sha512&digest=hex&name=[hash].[ext]',
+            'file?hash=sha512&digest=hex&name=[name].[ext]',
             'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
     }
