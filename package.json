@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "portfolio website for Ejerson Balabas",
   "main": "index.js",
+  "engines": {
+    "node": "6.6.0",
+    "npm": "3.10.8"
+  },
   "scripts": {
     "build": "webpack --display-error-details",
     "dev": "webpack-dev-server --progress --inline --hot",
