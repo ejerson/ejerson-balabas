@@ -4,7 +4,7 @@
   "description": "portfolio website for Ejerson Balabas",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --display-error-details",
     "dev": "webpack-dev-server --progress --inline --hot",
     "start": "node server.js",
     "postinstall": "webpack -p",
