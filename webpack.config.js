@@ -1,10 +1,10 @@
 const webpack = require('webpack');
-// const HTMLWebpackPlugin = require('html-webpack-plugin');
-// const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-//   template: __dirname + '/src/index.html',
-//   filename: 'public/index.html',
-//   inject: 'body'
-// });
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
+  template: __dirname + '/public/index.html',
+  filename: 'index.html',
+  inject: 'body'
+});
 
 var definePlugin = new webpack.DefinePlugin({
   __DEV__: JSON.stringify(JSON.parse(process.env.BUILD_DEV || 'true')),
@@ -19,9 +19,10 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 module.exports = {
   entry: [
     './src/index.js'
+
   ],
   output: {
-    path: __dirname,
+    path: __dirname + '/build',
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -42,7 +43,7 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
-            'file?hash=sha512&digest=hex&name=[hash].[ext]',
+            'file?hash=sha512&digest=hex&name=[name].[ext]',
             'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
     }
@@ -56,12 +57,13 @@ module.exports = {
     contentBase: './'
   },
   plugins: [
-    // HTMLWebpackPluginConfig,
-    new ExtractTextPlugin("style/styles.css"),
+    HTMLWebpackPluginConfig,
+    new ExtractTextPlugin("public/styles/style.css"),
     definePlugin,
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
     new webpack.optimize.UglifyJsPlugin({
     compress: {
+        // removed the annoying warning from UnglifyJs
         warnings: false
     }
   })

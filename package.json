@@ -2,7 +2,7 @@
   "name": "ejerson-balabas",
   "version": "1.0.0",
   "description": "portfolio website for Ejerson Balabas",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --progress --inline --hot",
@@ -28,11 +28,15 @@
   },
   "homepage": "https://github.com/0e0/ejerson-balabas#readme",
   "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
     "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
     "image-webpack-loader": "^3.0.0",
     "less-loader": "^2.2.3",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
   },
   "devDependencies": {
@@ -40,7 +44,9 @@
     "babel-loader": "^6.2.7",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
     "less": "^2.7.1",
+    "style-loader": "^0.13.1",
     "webpack-dev-server": "^1.16.2"
   }
 }
