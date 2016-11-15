@@ -64,7 +64,8 @@ module.exports = {
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
     new webpack.optimize.UglifyJsPlugin({
     compress: {
-        warnings: false
+        warnings: false,
+        minimize: true
     }
   })
   ]
