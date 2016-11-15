@@ -52,7 +52,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx'],
     modulesDirectories: [
-      'node_modules'
+      '/Users/edge26/Desktop/ejerson-balabas/node_modules'
     ]
   },
   resolveLoader: {
