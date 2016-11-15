@@ -57,7 +57,7 @@ module.exports = {
   },
   plugins: [
     // HTMLWebpackPluginConfig,
-    new ExtractTextPlugin("style/styles.css"),
+    new ExtractTextPlugin("styles/style.css"),
     definePlugin,
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
     new webpack.optimize.UglifyJsPlugin({
