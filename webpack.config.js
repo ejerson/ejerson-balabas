@@ -1,11 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
-// const HTMLWebpackPlugin = require('html-webpack-plugin');
-// const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-//   template: __dirname + '/src/index.html',
-//   filename: 'public/index.html',
-//   inject: 'body'
-// });
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
+  template: __dirname + '/src/index.html',
+  filename: 'public/index.html',
+  inject: 'body'
+});
 
 var definePlugin = new webpack.DefinePlugin({
   __DEV__: JSON.stringify(JSON.parse(process.env.BUILD_DEV || 'true')),
@@ -22,7 +22,7 @@ module.exports = {
     './src/index.js'
   ],
   output: {
-    path: __dirname,
+    path: __dirname + '/build',
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -62,7 +62,7 @@ module.exports = {
     contentBase: './'
   },
   plugins: [
-    // HTMLWebpackPluginConfig,
+    HTMLWebpackPluginConfig,
     new ExtractTextPlugin("styles/style.css"),
     definePlugin,
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
