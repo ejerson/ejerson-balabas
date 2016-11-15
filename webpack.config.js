@@ -1,10 +1,10 @@
 const webpack = require('webpack');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
-const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-  template: __dirname + '/public/index.html',
-  filename: 'index.html',
-  inject: 'body'
-});
+// const HTMLWebpackPlugin = require('html-webpack-plugin');
+// const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
+//   template: __dirname + '/public/index.html',
+//   filename: 'index.html',
+//   inject: 'body'
+// });
 
 var definePlugin = new webpack.DefinePlugin({
   __DEV__: JSON.stringify(JSON.parse(process.env.BUILD_DEV || 'true')),
@@ -22,7 +22,7 @@ module.exports = {
 
   ],
   output: {
-    path: __dirname + '/build',
+    path: __dirname,
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -33,11 +33,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: [
-            'babel-preset-es2015',
-            'babel-preset-react',
-            'babel-preset-stage-0',
-          ].map(require.resolve),
+          presets: ['react', 'es2015', 'stage-1']
         }
       },
       {
@@ -54,15 +50,14 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
-    modulesDirectories: ['build/node_modules']
+    extensions: ['', '.js', '.jsx']
   },
   devServer: {
     historyApiFallback: true,
     contentBase: './'
   },
   plugins: [
-    HTMLWebpackPluginConfig,
+    // HTMLWebpackPluginConfig,
     new ExtractTextPlugin("public/styles/style.css"),
     definePlugin,
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
