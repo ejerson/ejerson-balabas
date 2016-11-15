@@ -2,7 +2,7 @@
   "name": "ejerson-balabas",
   "version": "1.0.0",
   "description": "portfolio website for Ejerson Balabas",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --display-error-details",
     "dev": "webpack-dev-server --progress --inline --hot",

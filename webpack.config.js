@@ -19,7 +19,7 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 
 module.exports = {
   entry: [
-    '../src/index.js'
+    './src/index.js'
   ],
   output: {
     path: __dirname,
