@@ -53,9 +53,9 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   resolveLoader: {
-      modulesDirectories: [
-          '/Users/edge26/Desktop/ejerson-balabas/node_modules/babel-loader'
-      ]
+    root: [
+      path.join(__dirname, "node_modules")
+    ]
 },
   devServer: {
     historyApiFallback: true,
