@@ -50,10 +50,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
-    modulesDirectories: [
-      '/Users/edge26/Desktop/ejerson-balabas/node_modules'
-    ]
+    extensions: ['', '.js', '.jsx']
   },
   resolveLoader: {
   root: path.join(__dirname, 'node_modules')
