@@ -2,7 +2,7 @@
   "name": "ejerson-balabas",
   "version": "1.0.0",
   "description": "portfolio website for Ejerson Balabas",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --progress --inline --hot",
@@ -17,7 +17,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0e0/ejerson-balabas.git"
-  },  
+  },
   "keywords": [
     "portfolio"
   ],
