@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 // const HTMLWebpackPlugin = require('html-webpack-plugin');
 // const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-//   template: __dirname + '/public/index.html',
-//   filename: 'index.html',
+//   template: __dirname + '/src/index.html',
+//   filename: 'public/index.html',
 //   inject: 'body'
 // });
 
@@ -19,7 +19,6 @@ require('events').EventEmitter.prototype._maxListeners = 100;
 module.exports = {
   entry: [
     './src/index.js'
-
   ],
   output: {
     path: __dirname,
@@ -43,7 +42,7 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
-            'file?hash=sha512&digest=hex&name=[name].[ext]',
+            'file?hash=sha512&digest=hex&name=[hash].[ext]',
             'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
     }
@@ -58,12 +57,11 @@ module.exports = {
   },
   plugins: [
     // HTMLWebpackPluginConfig,
-    new ExtractTextPlugin("public/styles/style.css"),
+    new ExtractTextPlugin("style/styles.css"),
     definePlugin,
     new webpack.optimize.LimitChunkCountPlugin({maxChunks: 15}),
     new webpack.optimize.UglifyJsPlugin({
     compress: {
-        // removed the annoying warning from UglifyJs
         warnings: false
     }
   })
