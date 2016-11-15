@@ -34,10 +34,7 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015', 'stage-1']
-        },
-        "react",
-        "es2015",
-        "stage-1"
+        }
       },
       {
         test: /\.less$/,
