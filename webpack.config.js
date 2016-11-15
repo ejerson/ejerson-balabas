@@ -53,6 +53,9 @@ module.exports = {
       'node_modules'
     ]
   },
+  resolveLoader: {
+  root: path.join(__dirname, 'node_modules')
+},
   devServer: {
     historyApiFallback: true,
     contentBase: './'
@@ -65,7 +68,6 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
     compress: {
         warnings: false,
-        minimize: true
     }
   })
   ]
