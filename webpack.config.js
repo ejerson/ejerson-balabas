@@ -33,7 +33,11 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015', 'stage-1']
+          presets: [
+            'babel-preset-es2015',
+            'babel-preset-react',
+            'babel-preset-stage-0',
+          ].map(require.resolve),
         }
       },
       {
