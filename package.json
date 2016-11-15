@@ -28,8 +28,6 @@
   },
   "homepage": "https://github.com/0e0/ejerson-balabas#readme",
   "dependencies": {
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.7",
     "babel-preset-stage-1": "^6.1.18",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^1.0.1",
