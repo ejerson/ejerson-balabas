@@ -1,1 +1,1 @@
-{ presets: ['react', 'latest', 'stage-1']}
+{ presets: ['react', 'latest', 'stage-1', 'es2015']}
