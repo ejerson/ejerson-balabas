@@ -23,7 +23,7 @@ module.exports = {
   ],
   output: {
     path: __dirname + '/build',
-    publicPath: '/',
+    publicPath: '/build',
     filename: 'bundle.js'
   },
   module: {
