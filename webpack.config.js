@@ -30,11 +30,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-        presets: ['react', 'es2015']
-        }
-      },
+        loader: 'babel-loader'  
       {
         test: /\.less$/,
         loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
