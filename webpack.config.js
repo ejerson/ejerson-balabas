@@ -48,10 +48,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
-  resolveLoader: {
-    root: path.resolve(__dirname, 'node_modules')
+    extensions: ['', '.js', '.jsx'],
+    modulesDirectories: [
+      'node_modules'
+    ]
   },
   devServer: {
     historyApiFallback: true,
