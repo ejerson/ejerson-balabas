@@ -6,5 +6,4 @@ import App from './components/app.js';
 require('../public/styles/index.less');
 
 
-ReactDOM.render(<App />
-  , document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('.container'));
