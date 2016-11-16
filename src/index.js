@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 
-import App from './components/app.js';
+import App from './components/landing.js';
 require('./public/styles/index.less');
 
 

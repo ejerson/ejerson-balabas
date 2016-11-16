@@ -3,7 +3,7 @@ const path = require('path');
 const port = process.env.PORT || 8080;
 const app = express();
 
-// /build points my app to this server.
+// build points my app to this server.
 app.use(express.static('build'));
 
 app.get('*', (req, res) => {
