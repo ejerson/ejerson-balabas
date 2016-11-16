@@ -1,16 +1,22 @@
 .square-container {
   width: 300px;
   height: 300px;
-  background-color: #BFE8DF;
-  opacity: .5;
+  background-color: white;
+
+  animation: fadein 5s;
   float: left;
   margin: 6% auto auto 6%;
-  box-shadow: 5px 5px 5px #98B9B2;
   text-align: center;
   square-text {
     font-weight: bolder;
   }
   padding-top: 10px;
+}
+
+.ejerson:hover {
+
+  background-color: #BFE8DF;
+  animation: fadeout 5s;
 }
 
 @media screen and (min-width: 320px) {

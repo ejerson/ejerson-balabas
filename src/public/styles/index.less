@@ -17,6 +17,14 @@
   z-index: 5;
 }
 
+ul {
+  margin-top: 20px;
+}
+
+li {
+  padding: 5px;
+}
+
 .github {
   bottom: 5%;
   width: 40%;
@@ -73,8 +81,9 @@ html {
   top: 0;
   right: 0;
   left: 0;
-
 }
+
+
 
 .human {
   background-color: black;
@@ -89,8 +98,6 @@ box-shadow: 4px 4px 11px 2px rgba(0,0,0,0.45);
 
 }
 
-
-
 .musician {
   background-color: #fffff0;
   border-style: solid;
@@ -102,4 +109,22 @@ box-shadow: 4px 4px 11px 2px rgba(0,0,0,0.45);
   top: 67%;
   right: 0;
   left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .developer, .musician {
+    right: 15%;
+    left: 15%;
+  }
+  .human {
+    left: 15%;
+  }
+  .contact {
+    right: 15%;
+  }
+
+}
+
+html {
+  background-color: gray;
 }

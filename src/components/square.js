@@ -14,7 +14,7 @@ export default class App extends Component {
 
   render() {
     return (
-    <div className="square-container">
+    <div className={this.props.className}>
       <div><h1 className="square-text">{this.props.title}</h1></div>
       <div>{this.props.content}</div>
     </div>

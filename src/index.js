@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 
-import App from './components/landing.js';
+import App from './components/app.js';
 require('./public/styles/index.less');
-
 
 ReactDOM.render((
   <Router history={browserHistory}>

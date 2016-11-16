@@ -10,13 +10,17 @@ export default class App extends Component {
         <h1>developer</h1>
       </div>
       <div className='human'>
-        <h1 className='human-text'>Ejerson Balabas</h1>
+        <h1 className='human-text'>human</h1>
       </div>
       <div className='musician'>
         <h1>musician</h1>
       </div>
       <div className='contact'>
-      <img className='github' src={require('../public/images/github.png')} />
+        <ul>
+          <li>Contact</li>
+          <li>About</li>
+          <li>Resume</li>
+        </ul>
       </div>
     </div>
     );
