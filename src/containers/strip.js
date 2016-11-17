@@ -5,6 +5,7 @@ export default class Stip extends Component {
     super(props);
     this.state = {
       color: 'black'
+
     };
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave = this.handleMouseLeave.bind(this);

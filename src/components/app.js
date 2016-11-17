@@ -7,30 +7,23 @@ export default class App extends Component {
   render() {
     return (
     <div>
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip /><Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip />
+
+
+
+
       <div className="developer">
         <h1>developer</h1>
       </div>
