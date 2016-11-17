@@ -19,7 +19,20 @@ export default class App extends Component {
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
-      <Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+      <Strip /><Strip /><Strip /><Strip />
+
 
 
 
