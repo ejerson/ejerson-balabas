@@ -48,9 +48,11 @@ export default class App extends Component {
       </div>
       <div className='contact'>
         <ul>
-          <li>Contact</li>
-          <li>About</li>
-          <li>Resume</li>
+          <li><img className='instagram-btn' src={require('../public/images/instagram.png')} /></li>
+          <li><img className='instagram-btn' src={require('../public/images/linkedin.png')} /></li>
+          <li><img className='instagram-btn' src={require('../public/images/facebook-black.png')} /></li>
+          <li><img className='instagram-btn' src={require('../public/images/github.png')} /></li>
+
         </ul>
       </div>
     </div>
