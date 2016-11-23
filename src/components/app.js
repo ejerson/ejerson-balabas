@@ -41,7 +41,7 @@ export default class App extends Component {
         <h1>developer</h1>
       </div>
       <div className='human'>
-        <h1 className='human-text'>human</h1>
+        <h1 className='human-text'>Ejerson Balabas</h1>
       </div>
       <div className='musician'>
         <h1>musician</h1>
