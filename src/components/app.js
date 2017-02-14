@@ -33,10 +33,6 @@ export default class App extends Component {
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
 
-
-
-
-
       <div className="developer">
         <h1>developer</h1>
       </div>

@@ -1,5 +1,9 @@
 @Ubuntu: 'Ubuntu', sans-serif;
 
+@aqua: #1474C2;
+@earth: #2D080D;
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,7 +31,7 @@ a:link {
 ul {
   text-align: center;
   img {
-    width: 45px;
+    width: 40px;
     margin: 5px;
   }
 }
@@ -43,24 +47,28 @@ body {
   font-weight: 800;
   letter-spacing: 3px;
   font-size: 50px;
-  color: white;
-  text-align: center;
-  margin-top: 40px;
+  color: @aqua;
+  border: 1px;
+  border-color: @earth;
+  text-align: left;
+  margin-top: 60px;
+  padding-left: 20%;
 }
 
 h1 {
   font-family: @Ubuntu;
   font-weight: 800;
   letter-spacing: 3px;
-  font-size: 50px;
-  color: gray;
-  text-align: center;
-  margin-top: 40px;
+  font-size: 60px;
+  color: @earth;
+  text-align: left;
+  margin-top: 60px;
+  padding-left: 20%;
 }
 
 .developer {
   background-color: white;
-  color: gray;
+  color: @earth;
   border-style: solid;
   border-color: white;
   position: absolute;
@@ -72,7 +80,7 @@ h1 {
 }
 
 .human {
-  background-color: black;
+  background-color: gray;
   position: absolute;
   right: 30%;
   left: 0;
@@ -87,7 +95,7 @@ h1 {
   background-color: white;
   border-style: solid;
   border-color: white;
-  color: gray;
+  color: @earth;
   position: absolute;
   background-size: cover;
   bottom: 0;
