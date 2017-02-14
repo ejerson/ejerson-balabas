@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Strip from '../containers/strip';
-
+import Menu from '../containers/menu-presentation';
 
 export default class App extends Component {
   render() {
@@ -33,14 +33,20 @@ export default class App extends Component {
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
 
-      <div className="developer">
-        <h1>developer</h1>
+      <div className='developer'>
+        <Menu
+          text='musician'
+        />
       </div>
       <div className='human'>
-        <h1 className='human-text'>Ejerson Balabas</h1>
+        <Menu
+          text='ejerson balabas'
+        />
       </div>
       <div className='musician'>
-        <h1>musician</h1>
+        <Menu
+          text='developer'
+        />
       </div>
       <div className='contact'>
         <ul>
