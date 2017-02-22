@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 import Strip from '../containers/strip';
-import Menu from '../containers/menu-presentation';
+import Musician from '../containers/musician-menu';
+import Ejerson from '../containers/ejerson-menu';
+import Developer from '../containers/developer-menu';
 
 export default class App extends Component {
   render() {
@@ -32,31 +34,18 @@ export default class App extends Component {
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
+      <Musician
+        text='musician'
+        resumetext='resume'
+      />
 
-      <div className='developer'>
-        <Menu
-          text='musician'
-        />
-      </div>
-      <div className='human'>
-        <Menu
-          text='ejerson balabas'
-        />
-      </div>
-      <div className='musician'>
-        <Menu
-          text='developer'
-        />
-      </div>
-      <div className='contact'>
-        <ul>
-          <li><img className='instagram-btn' src={require('../public/images/instagram.png')} /></li>
-          <li><img className='instagram-btn' src={require('../public/images/linkedin.png')} /></li>
-          <li><img className='instagram-btn' src={require('../public/images/facebook-black.png')} /></li>
-          <li><img className='instagram-btn' src={require('../public/images/github.png')} /></li>
+      <Ejerson
+        text='ejerson balabas'
+      />
 
-        </ul>
-      </div>
+      <Developer
+        title='developer'
+      />
     </div>
     );
   }

@@ -9,23 +9,9 @@
   margin: 0;
 }
 
-.contact {
-  background-color: white;
-  background-size: cover;
-  top: 33%;
-  right: 0;
-  left: 70%;
-  bottom: 33%;
-  position: absolute;
-  overflow: scroll;
-  z-index: 5;
-}
-
 a:link {
   text-decoration: none;
 }
-
-
 
 ul {
   text-align: center;
@@ -41,71 +27,10 @@ body {
   height: 100%;
 }
 
-.human-title {
-  font-family: @Josefin;
-  font-weight: 800;
-  letter-spacing: 3px;
-  font-size: 50px;
-  color: @aqua;
-  border: 1px;
-  border-color: @earth;
-  margin-top: 60px;
-  padding-left: 200px;
-}
-
-.developer-title, .musician-title {
-  font-family: @Josefin;
-  font-weight: 800;
-  letter-spacing: 3px;
-  font-size: 30px;
-  color: @earth;
-  margin-top: 60px;
-  padding-left: 200px;
-}
-
-// Smaller Screens
-@media screen and (max-width: 375px) {
-  .developer-title, .musician-title, .human-title {
-    margin-top: 40px;
-    padding-left: 50px;
-    font-size: 20px;
-  }
-}
-
-.developer {
-  background-color: white;
-  color: @earth;
-  border-style: solid;
-  border-color: white;
-  position: absolute;
-  background-size: cover;
-  bottom: 67%;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.human {
-  background-color: @aqua;
-  position: absolute;
-  right: 30%;
-  left: 0;
-  bottom: 33%;
-  top: 33%;
-}
-
-.musician {
-  background-color: white;
-  border-style: solid;
-  border-color: white;
-  color: @earth;
-  position: absolute;
-  background-size: cover;
-  bottom: 0;
-  top: 67%;
-  right: 0;
-  left: 0;
-}
-
 @import 'strips.less';
-@import 'menu-presentation.less';
+@import 'musician-menu.less';
+@import 'developer-menu.less';
+@import 'ejerson-menu.less';
+@import 'musician-menu-queries.less';
+@import 'developer-menu-queries.less';
+@import 'ejerson-menu-queries.less';

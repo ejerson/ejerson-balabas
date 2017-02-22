@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export default class Stip extends Component {
+export default class Strip extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: 'black'
+      color: 'earth'
 
     };
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
@@ -19,7 +19,7 @@ export default class Stip extends Component {
 
   handleMouseLeave() {
     this.setState({
-      color: 'black'
+      color: 'earth'
     });
   }
 
