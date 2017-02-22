@@ -43,12 +43,10 @@ export default class App extends Component {
         <RadiumLink className="bm-item-list" to="/"></RadiumLink>
         <RadiumLink className="bm-item-list" to="/blog">blog</RadiumLink>
       </Menu>
-
-
         <h1 className='main-title'>EJERSON DIAZ</h1>
         <div className='intro'>
-          <h1 className='intro-title'>Hi. I&#39;m Ejerson.</h1>
-          <h2 className='intro-body'>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h2>
+          <h1 className='intro-title'>HI. I&#39;M EJERSON.</h1>
+          <div className='intro-body'>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</div>
           <img className='headshot' src={require('./images/ejerson.jpg')} />
         </div>
       </div>

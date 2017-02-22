@@ -1,7 +1,12 @@
 @Dosis: 'Dosis', sans-serif;
 
-@aqua: #1474C2;
-@earth: #2D080D;
+// @aqua: #1474C2;
+@aqua: #08E8DE;
+// @earth: #2D080D;
+@earth: #87411C;
+@gray: #383B3B;
+// @gray: #9B897F;
+
 
 * {
   box-sizing: border-box;
@@ -49,6 +54,7 @@ body {
   height: 34px;
   width: 34px;
   margin-right: 1em;
+
 }
 
 /* Color/shape of close button cross */
@@ -67,9 +73,12 @@ body {
 .bm-item-list {
   padding: 3%;
   font-family: @Dosis;
+  font-weight: bold;
   font-size: 1.2em;
-  color: white;
+  color: @gray;
+  letter-spacing: 1px;
 }
 
 @import 'app.less';
+@import 'app-queries.less';
 @import 'strips.less';
