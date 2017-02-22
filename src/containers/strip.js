@@ -4,7 +4,7 @@ export default class Strip extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: 'earth'
+      color: 'earth',
 
     };
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
@@ -25,7 +25,8 @@ export default class Strip extends Component {
 
   render() {
     return (
-    <div onMouseOut={this.handleMouseLeave} onMouseOver={this.handleMouseEnter} className={this.state.color}></div>
+    <div onMouseOut={this.handleMouseLeave} onMouseOver={this.handleMouseEnter} className={this.state.color}>
+    </div>
     );
   }
 }

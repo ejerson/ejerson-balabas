@@ -1,4 +1,4 @@
-@Josefin: 'Josefin Sans', sans-serif;
+@Dosis: 'Dosis', sans-serif;
 
 @aqua: #1474C2;
 @earth: #2D080D;
@@ -22,15 +22,54 @@ ul {
 }
 
 body {
-  background-color: black;
+  background-color: white;
   z-index: -1;
-  height: 100%;
+  width: 100%;
+  font-family: @Dosis;
 }
 
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 3%;
+  top: 15px;
+  margin: auto;
+  z-index: 5;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: gray;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 34px;
+  width: 34px;
+  margin-right: 1em;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: @aqua;
+  font-weight: normal;
+}
+
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 3%;
+  font-family: @Dosis;
+  font-size: 1.2em;
+  color: white;
+}
+
+@import 'app.less';
 @import 'strips.less';
-@import 'musician-menu.less';
-@import 'developer-menu.less';
-@import 'ejerson-menu.less';
-@import 'musician-menu-queries.less';
-@import 'developer-menu-queries.less';
-@import 'ejerson-menu-queries.less';

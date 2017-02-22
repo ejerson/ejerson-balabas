@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { stack as Menu } from 'react-burger-menu';
+import { Link } from 'react-router';
+import Radium from 'radium';
 
 import Strip from '../containers/strip';
-import Musician from '../containers/musician-menu';
-import Ejerson from '../containers/ejerson-menu';
-import Developer from '../containers/developer-menu';
+import NavLink from './NavLink';
+let RadiumLink = Radium(Link);
 
 export default class App extends Component {
   render() {
@@ -34,18 +36,23 @@ export default class App extends Component {
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
       <Strip /><Strip /><Strip /><Strip />
-      <Musician
-        text='musician'
-        resumetext='resume'
-      />
+      <div className='nav'>
 
-      <Ejerson
-        text='ejerson balabas'
-      />
 
-      <Developer
-        title='developer'
-      />
+      <Menu right width={ 280 } noOverlay>
+        <RadiumLink className="bm-item-list" to="/"></RadiumLink>
+        <RadiumLink className="bm-item-list" to="/blog">blog</RadiumLink>
+      </Menu>
+
+
+        <h1 className='main-title'>EJERSON DIAZ</h1>
+        <div className='intro'>
+          <h1 className='intro-title'>Hi. I&#39;m Ejerson.</h1>
+          <h2 className='intro-body'>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h2>
+          <img className='headshot' src={require('./images/ejerson.jpg')} />
+        </div>
+      </div>
+
     </div>
     );
   }
