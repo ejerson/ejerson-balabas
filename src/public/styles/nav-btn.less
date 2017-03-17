@@ -1,63 +1,34 @@
 // Navigation Buttons
-.nav-btn {
+.nav-div {
   width: 100%;
   background-color: white;
 }
 
 // Hover for all Nav Buttons
-.nav-hover {
+.nav-btn-hover {
   background-color: @gray;
   color: white;
   transition: ease-in-out 1s;
 }
 
-// About Button
-.about-btn {
-  padding: 16px;
-  font-size: 15px;
-  width: 20%;
-  border: none;
-  margin-bottom: 10px;
+@media screen and (min-width: 450px) {
+  // Nav Button
+  .nav-btn {
+    padding: 16px;
+    font-size: 15px;
+    width: 20%;
+    border: none;
+    margin-bottom: 10px;
 
+  }
+
+  .nav-btn:hover {
+    .nav-btn-hover;
+  }
 }
 
-.about-btn:hover {
-  .nav-hover;
-}
-
-// Music Button
-.music-btn {
-  .about-btn;
-}
-
-.music-btn:hover {
-  .nav-hover;
-}
-
-// Code Button
-.code-btn {
-  .about-btn;
-}
-
-.code-btn:hover {
-  .nav-hover;
-}
-
-// Blog Button
-.blog-btn {
-  .about-btn;
-}
-
-.blog-btn:hover {
-  .nav-hover;
-}
-
-// Resources Button
-.resources-btn {
-  .about-btn;
-  border-right: none;
-}
-
-.resources-btn:hover {
-  .nav-hover;
+@media screen and (max-width: 450px) {
+  .nav-div {
+    display: none;
+  }
 }

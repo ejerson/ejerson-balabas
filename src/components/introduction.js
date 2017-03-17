@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 export default React.createClass({
   render() {
     return (
-      <div>
+      <div className='introduction'>
         <h1 className='intro-title'>Hi. I&#39;m Ejerson.</h1>
         <div className='intro'>
           <div>
