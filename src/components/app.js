@@ -18,9 +18,9 @@ export default class App extends Component {
       <div className='nav'>
       <Menu right width={ 280 } noOverlay>
         <RadiumLink className="bm-item-list" to="/"></RadiumLink>
-        <RadiumLink className="bm-item-list" to="/blog">blog</RadiumLink>
+        <RadiumLink className="bm-item-list" to="/quotes">quotes</RadiumLink>
       </Menu>
-        <h1 className='main-title'>EJERSON DIAZ</h1>
+        <h1 className='main-title'>EJERSON BALABAS</h1>
         <Intro />
 
       </div>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 
 import App from './components/app.js';
-import Blog from './components/Blog';
+import Quotes from './components/Quotes';
 
 require('./public/styles/index.less');
 
@@ -12,5 +12,5 @@ require('./public/styles/index.less');
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path="/" component={App} />
-    <Route path="/blog" component={Blog} />
+    <Route path="/quotes" component={Quotes} />
   </Router>), document.querySelector('.container'));
