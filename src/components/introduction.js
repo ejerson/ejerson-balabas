@@ -10,8 +10,8 @@ export default React.createClass({
           <div>
           <img className='headshot' src={require('./images/ejerson.jpg')} />
           </div>
-          <div className='intro-body'>
-            <h3>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h3>
+          <div>
+            <h3 className='intro-body'>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h3>
           </div>
         </div>
         <div className="mission">
