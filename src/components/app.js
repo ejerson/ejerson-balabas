@@ -8,21 +8,12 @@ import Navigation from './navigation';
 
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      active: <About />
-    }
-  }
-
-
-
 
   render() {
     return (
     <div>
       <Strips />
-      {this.state.active}
+      <About />
       <Navigation />
     </div>
     );
