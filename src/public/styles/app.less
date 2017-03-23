@@ -1,5 +1,5 @@
 .nav {
-  background-color: white;
+  background-color: @white;
   z-index: 5;
   position: fixed;
   left: 0;
@@ -17,4 +17,11 @@ h1 {
 .main-title {
   margin-top: 15px;
   padding: 0 10px 20px 3%;
+  color: black;
+}
+
+@media screen and (max-width: 790px) {
+  .main-title {
+    color: @earth;
+  }
 }
