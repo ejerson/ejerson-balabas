@@ -1,0 +1,49 @@
+// Main Div
+.music-div {
+  position: absolute;
+  background-color: @white;
+  top: 125px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0 3% 3% 3%;
+}
+
+@media screen and (max-width: 450px) {
+  .music-div {
+    top: 75px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  //removes strips
+  .music-div {
+    margin: 0;
+  }
+
+  .music-philosophy {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .music-philosophy {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+.music-philosophy {
+  margin: @center;
+  font-size: 20px;
+  .music-philosophy-body {
+    font-weight: normal;
+    font-size: 22px;
+    text-align:  justify;
+  }
+}
+
+.music-philosophy-title {
+  font-weight: 900;
+  font-size: 45px;
+  padding-top: 10px;
+}

@@ -33,7 +33,8 @@ export default class Clicked extends Component {
 
   render() {
     return (
-      <Link to={this.props.link}><button onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} onClick={this.handleNavClick} className={this.state.color}>{this.props.title}</button></Link>
+        <Link to={this.props.link}><button onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} onClick={this.handleNavClick} className={this.state.color}>{this.props.title}</button></Link>
+
     );
   }
 }

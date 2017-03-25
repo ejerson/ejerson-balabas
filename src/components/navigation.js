@@ -24,7 +24,7 @@ export default React.createClass({
             />
             <Clicked
               title='music'
-              link='/quotes'
+              link='/music'
             />
 
             <Clicked
