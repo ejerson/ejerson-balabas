@@ -13,7 +13,10 @@ export default React.createClass({
       <div className='nav'>
         <Menu right width={ 280 } noOverlay>
           <RadiumLink className="bm-item-list" to="/"></RadiumLink>
-          <RadiumLink className="bm-item-list" to="/quotes">quotes</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/">about</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/music">music</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/code">code</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/blog">blog</RadiumLink>
         </Menu>
           <Link to={'/'}><h1 className='main-title'>EJERSON BALABAS</h1></Link>
 
@@ -29,17 +32,17 @@ export default React.createClass({
 
             <Clicked
               title='code'
-              link='/'
+              link='/code'
             />
 
             <Clicked
               title='blog'
-              link='/quotes'
+              link='/blog'
             />
 
             <Clicked
               title='resources'
-              link='/quotes'
+              link='/blog'
             />
 
           </div>
