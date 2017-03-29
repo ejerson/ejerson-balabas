@@ -57,3 +57,41 @@
   font-size: 45px;
   padding-top: 10px;
 }
+
+.reason-to-code {
+  margin-bottom: 10px;
+}
+
+//Timeline
+
+.timeline-div {
+  margin-bottom: 10px;
+}
+.timeline-title {
+  .code-title;
+}
+
+.timeline-key {
+  .timeline-div;
+  background-color: @aqua;
+}
+
+.timeline-left {
+  border-color: @gray;
+  padding: 3%;
+  min-width: 200px;
+  text-align: right;
+}
+
+.timeline-right {
+  padding: 3%;
+}
+
+@media screen and (min-width: 660px) {
+  .timeline-div, .timeline-key {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+
+}
