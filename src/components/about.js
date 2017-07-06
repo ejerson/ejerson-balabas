@@ -12,7 +12,7 @@ export default class About extends Component {
       <div className='introduction'>
         <div className='intro'>
           <div>
-          <img className='headshot' src={require('./images/ejerson.jpg')} alt="" />
+          <img className='headshot' src={require('./images/semiformal.jpg')} />
           </div>
           <div>
             <h1 className='intro-title'>Hi. I&#39;m Ejerson.</h1>
