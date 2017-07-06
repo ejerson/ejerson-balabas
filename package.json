@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack --display-error-details",
-    "dev": "webpack-dev-server --progress --inline --hot",
+    "dev": "webpack-dev-server --progress --inline --hot --watch",
     "start": "node server.js",
     "postinstall": "webpack -p",
     "git-commit": "git add . && git commit -m 'update'",
@@ -47,6 +47,7 @@
     "react": "^15.3.2",
     "react-burger-menu": "^1.10.12",
     "react-dom": "^15.3.2",
+    "react-iframe": "^1.0.7",
     "react-router": "^3.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3"

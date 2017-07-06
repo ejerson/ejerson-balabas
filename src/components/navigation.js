@@ -42,7 +42,7 @@ export default React.createClass({
 
             <Clicked
               title='resources'
-              link='/blog'
+              link='/resources'
             />
 
           </div>
