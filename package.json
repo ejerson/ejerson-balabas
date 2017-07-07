@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack --display-error-details",
-    "dev": "webpack-dev-server --progress --inline --hot --watch",
+    "dev": "webpack-dev-server --progress --inline --hot",
     "start": "node server.js",
     "postinstall": "webpack -p",
     "git-commit": "git add . && git commit -m 'update'",
