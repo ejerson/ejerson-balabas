@@ -6,7 +6,7 @@ import App from './components/app';
 import Blog from './components/blog';
 import Music from './components/music';
 import Code from './components/code';
-import Resources from './components/resources';
+import Teach from './components/teach';
 import Christian from './components/christian';
 
 require('./public/styles/index.less');
@@ -19,6 +19,6 @@ ReactDOM.render((
     <Route path='/music' component={Music} />
     <Route path='/code' component={Code} />
     <Route path="/blog" component={Blog} />
-    <Route path="/resources" component={Resources} />
+    <Route path="/teach" component={Teach} />
     <Route path="/christian" component={Christian} />
   </Router>), document.querySelector('.container'));
