@@ -51,7 +51,7 @@ export default React.createClass({
             <h1>Goal</h1>
             <h2>The goal is to finish this online class by August 4th. I will keep everyone updated through this page.
             Christian and I are going to work through all of his quizzes and test. Please help
-            him, as much as you can, with his writing assignments. Those are due by August 4th. Thank you everyone!</h2>
+            him, as much as you can, with his writing assignments or other teacher graded assignments. Those are due by August 4th. Thank you everyone!</h2>
           </div>
         </div>
 
