@@ -13,12 +13,15 @@ export default class Music extends Component {
         <Navigation />
         <div className='code-div'>
             <h1 className='code-title'>why code?</h1>
-            <h2 className='reason-to-code'>I don&#39;t like doing anything if it doesn&#39;t contribute to my mission.
-            My initial reason why I wanted to code, like most people, is the promise of making a lot of money.
-            But that mindset eventually made it imposible for me to want to code. I was stuck and didn&#39;t know how to
-            motivate myself. Thankfully, I was able to discover what I think is more aligned with my mission. To become a nurse.
-            I will still continue to improve my skills as a developer.
+            <h2 className='reason-to-code'>
+              It can be very <span className="word-code">challenging. </span>
+              It <span className="word-code">increases</span> your <span className="word-code">confidence</span> in your ability to learn.
+              It <span className="word-code">sharpens</span> the mind.
+              You become <span className="word-code">expose</span> to different way of thinking.
+              Forces you to see and approach a problem from a different angle.
+              Coding requires <span className="word-code">creativity.</span>
             </h2>
+
             <h2 className='timeline-title'>timeline</h2>
             <Timeline
               classID='timeline-key'
