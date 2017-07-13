@@ -14,12 +14,12 @@ export default class Music extends Component {
         <div className='code-div'>
             <h1 className='code-title'>why code?</h1>
             <h2 className='reason-to-code'>
-              It can be very <span className="word-code">challenging. </span>
-              It <span className="word-code">increases</span> your <span className="word-code">confidence</span> in your ability to learn.
-              It <span className="word-code">sharpens</span> the mind.
-              You become <span className="word-code">expose</span> to different way of thinking.
+              It can be very <span className="word-emphasis">challenging. </span>
+              It <span className="word-emphasis">increases</span> your <span className="word-emphasis">confidence</span> in your ability to learn.
+              It <span className="word-emphasis">sharpens</span> the mind.
+              You become <span className="word-emphasis">expose</span> to different way of thinking.
               Forces you to see and approach a problem from a different angle.
-              Coding requires <span className="word-code">creativity.</span>
+              Coding requires <span className="word-emphasis">creativity.</span>
             </h2>
 
             <h2 className='timeline-title'>timeline</h2>
