@@ -5,8 +5,8 @@ export default class Timeline extends Component {
     super(props);
     this.state = {
       month: '',
-      resourceOne: '',
-      resourceTwo: '',
+      resourceName: '',
+      resourceLink: '',
       story: '',
       activity: '',
       classID: ''
@@ -35,7 +35,7 @@ export default class Timeline extends Component {
       <div className='timeline-left'>
         <h1>{this.props.month}</h1>
         <h3>{this.props.activity}</h3>
-        <h3>{this.props.resourceOne}</h3>
+        <a href={this.props.resourceLink}>{this.props.resourceName}</a>
         <h3>{this.props.resourceTwo}</h3>
       </div>
       <div className='timeline-right'>
