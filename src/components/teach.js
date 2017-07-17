@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import Strips from '../containers/strips';
-import Navigation from './navigation';
+import Navigation from '../containers/navigation';
 
 export default React.createClass({
   render() {

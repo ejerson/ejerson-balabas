@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import Strips from '../containers/strips';
 import NavLink from './NavLink';
 import About from './about';
-import Navigation from './navigation';
+import Navigation from '../containers/navigation';
 
 
 export default class App extends Component {

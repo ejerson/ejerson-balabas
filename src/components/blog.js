@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import Strips from '../containers/strips';
-import Navigation from './navigation';
+import Navigation from '../containers/navigation';
+import SubNav from '../containers/sub-nav.js';
 
 export default React.createClass({
   render() {
@@ -11,6 +12,7 @@ export default React.createClass({
         <Strips />
         <Navigation />
         <div className='quotes'>
+        <SubNav />
           <h1>Quotes</h1>
           <h2>"Train yourself to let go of everything you fear to lose."</h2>
           <h2>"It is more noble to give yourself completely to one individual than to labor deligently for the salvation of the masses." -Dag Hammarskjöld </h2>

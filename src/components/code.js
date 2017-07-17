@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Strips from '../containers/strips';
-import Navigation from './navigation';
+import Navigation from '../containers/navigation';
 import Timeline from '../containers/timeline';
 
 export default class Music extends Component {

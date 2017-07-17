@@ -5,7 +5,7 @@ import Radium from 'radium';
 
 let RadiumLink = Radium(Link);
 
-import Clicked from '../containers/navigation-click';
+import Clicked from './navigation-click';
 
 export default React.createClass({
   render() {
