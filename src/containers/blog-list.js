@@ -10,7 +10,7 @@ class BlogList extends Component {
 			return (
 				<li
 					key={blog.title}
-					onMouseEnter={() => this.props.selectBlog(blog)}
+					onClick={() => this.props.selectBlog(blog)}
 					>
 					{blog.title}
 				</li>
