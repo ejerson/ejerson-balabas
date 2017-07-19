@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+
 
 import App from './components/app';
 import Blog from './components/blog';
@@ -8,13 +11,17 @@ import Music from './components/music';
 import Code from './components/code';
 import Teach from './components/teach';
 import Christian from './components/christian';
-import WhyFear from './components/blog/blog-template';
+import Fear from './components/blog/whyFear';
+import Love from './components/blog/whyLove';
 
 require('./public/styles/index.less');
 
+import reducers from './reducers';
 
+const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render((
+  <Provider store={createStoreWithMiddleware(reducers)}>
   <Router history={browserHistory}>
     <Route path="/" component={App} />
     <Route path='/music' component={Music} />
@@ -22,5 +29,8 @@ ReactDOM.render((
     <Route path="/blog" component={Blog} />
     <Route path="/teach" component={Teach} />
     <Route path="/christian" component={Christian} />
-    <Route path="/whyfear" component={WhyFear} />
-  </Router>), document.querySelector('.container'));
+    <Route path="/fear" component={Fear} />
+    <Route path="/love" component={Love} />
+  </Router>
+  </Provider>
+  ), document.querySelector('.container'));
