@@ -1,7 +1,12 @@
+
+
 export default function() {
 	return [
 		{ title: 'The Book of Awakening',
-			quote: 'We are, each of us, in a repeatable war between defending ourselves from hurts that happened long ago and opening in innocence, again and again, to the unexpected touch of life.'
+			date: 'July 19, 2017',
+			contentOne: 'I love candy!',
+			contentTwo: 'I love rice!',
+			contentThree: 'I love everything'
 			},
 		{ title: 'Harry Potter',
 			quote: 'I love candy!'

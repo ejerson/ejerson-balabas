@@ -10,9 +10,11 @@ class BlogDetail extends Component {
 
     return (
       <div>
-        <h3>Details for:</h3>
-        <div>Title: {this.props.blog.title}</div>
-        <div>Quote: {this.props.blog.quote}</div>
+        <h1>{this.props.blog.title}</h1>
+        <h3>{this.props.blog.date}</h3>
+        <h2>{this.props.blog.contentOne}</h2>
+        <h2>{this.props.blog.contentTwo}</h2>
+        <h2>{this.props.blog.contentThree}</h2>
       </div>
     );
   }

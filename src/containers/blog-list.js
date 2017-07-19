@@ -8,21 +8,24 @@ class BlogList extends Component {
 	renderList() {
 		return this.props.blogs.map((blog) => {
 			return (
-				<li
+				<h3
 					key={blog.title}
 					onClick={() => this.props.selectBlog(blog)}
+					className='ind-blog-title'
 					>
 					{blog.title}
-				</li>
+				</h3>
 			);
 		});
 	}
 
 	render() {
 		return (
-			<ul className="blog-list">
+			<div className='blog-list'>
+			<ul>
 				{this.renderList()}
 			</ul>
+			</div>
 		);
 	}
 }
