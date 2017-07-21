@@ -12,8 +12,7 @@ class BlogList extends Component {
 					key={blog.title}
 					onClick={() => this.props.selectBlog(blog)}
 					className='ind-blog-title'
-					>
-					{blog.title}
+					>{blog.title}    
 				</h3>
 			);
 		});

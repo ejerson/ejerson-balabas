@@ -1,7 +1,35 @@
 .blog-list {
-  width: 300px;
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   .ind-blog-title {
       text-decoration: none;
-      padding: 10px;
+      padding: 5px;
+      margin: 5px;
+      padding-right: 10px;
+      padding-left: 15px!important;
+      border-left: solid 1px;
+      display: inline-block;
+      border-color: @earth;
+      cursor: pointer;
+      letter-spacing: .8px;
   }
+
+  .ind-blog-title:hover {
+      color: @earth;
+      border-left: groove 3px;
+      border-color: @aqua;
+      transition: 1s ease;
+  }
+}
+
+.first-blog-image {
+  background: url(../images/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 2500px;
+  min-width: 300px;
+  max-height: 900px;
+  min-height: 400px;
+  background-size: cover;
 }
