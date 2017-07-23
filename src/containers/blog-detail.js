@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-
+import Fear from '../components/blog-entry/guidedByFear.js';
 
 class BlogDetail extends Component {
   render() {
@@ -12,7 +12,7 @@ class BlogDetail extends Component {
     return (
       <div>
         <h1>{this.props.blog.title}</h1>
-        <img className='headshot' src={this.props.blog.image} />
+        <img className='blog-pic' src={this.props.blog.image} />
         <h3>{this.props.blog.date}</h3>
         <h2>{this.props.blog.contentOne}</h2>
         <h2>{this.props.blog.contentTwo}</h2>

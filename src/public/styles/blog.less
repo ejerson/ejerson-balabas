@@ -1,3 +1,24 @@
+.blog-div {
+  .div-template;
+}
+
+@media screen and (max-width: 450px) {
+  .blog-div {
+    top: 75px;
+
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+
+  //removes strips
+  .blog-div {
+    margin: 0;
+  }
+
+}
+
 .blog-list {
   max-width: 1000px;
   margin-top: 20px;
@@ -23,13 +44,9 @@
   }
 }
 
-.first-blog-image {
-  background: url(../images/mountain.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 2500px;
-  min-width: 300px;
-  max-height: 900px;
-  min-height: 400px;
-  background-size: cover;
+//individual pictures for each blog
+.blog-pic {
+  margin: 3% 0 3% 0;
+  width: 100%;
+  max-height: 1000px;
 }

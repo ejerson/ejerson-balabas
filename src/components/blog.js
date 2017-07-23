@@ -3,7 +3,6 @@ import { Link } from 'react-router';
 
 import Strips from '../containers/strips';
 import Navigation from '../containers/navigation';
-import SubNav from '../containers/sub-nav.js';
 
 import BlogList from '../containers/blog-list';
 import BlogDetail from '../containers/blog-detail';
@@ -18,7 +17,7 @@ export default class Blog extends Component {
       <Navigation />
 
 
-      <div className='quotes'>
+      <div className='blog-div'>
 
           <BlogList />
           <BlogDetail />
