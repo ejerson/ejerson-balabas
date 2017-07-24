@@ -1,12 +1,8 @@
 
 export default function() {
 	return [
-		{ title: 'The Book of Awakening',
-			image: 'src/public/images/blog/mountain.jpg',
-			date: 'July 19, 2017',
-			contentOne: 'I love candy!',
-			contentTwo: 'I love rice!',
-			contentThree: 'I love everything'
+		{ title: 'Guided by fear.',
+			date: 'July 20, 2017'
 			}
 	];
 }

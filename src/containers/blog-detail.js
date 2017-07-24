@@ -9,16 +9,16 @@ class BlogDetail extends Component {
       return <div>Go read some of my blog!</div>
     }
 
-    return (
-      <div>
-        <h1>{this.props.blog.title}</h1>
-        <img className='blog-pic' src={this.props.blog.image} />
-        <h3>{this.props.blog.date}</h3>
-        <h2>{this.props.blog.contentOne}</h2>
-        <h2>{this.props.blog.contentTwo}</h2>
-        <h2>{this.props.blog.contentThree}</h2>
-      </div>
-    );
+    if (this.props.blog.date = 'July 20, 2017') {
+      return (
+        <div>
+          <h1>{this.props.blog.title}</h1>
+          <h3>{this.props.blog.date}</h3>
+          <Fear />
+        </div>
+      );
+    }
+    
   }
 }
 

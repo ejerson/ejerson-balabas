@@ -11,8 +11,7 @@ import Music from './components/music';
 import Code from './components/code';
 import Teach from './components/teach';
 import Christian from './components/christian';
-import Fear from './components/blog/whyFear';
-import Love from './components/blog/whyLove';
+
 
 require('./public/styles/index.less');
 
@@ -29,8 +28,6 @@ ReactDOM.render((
     <Route path="/blog" component={Blog} />
     <Route path="/teach" component={Teach} />
     <Route path="/christian" component={Christian} />
-    <Route path="/fear" component={Fear} />
-    <Route path="/love" component={Love} />
   </Router>
   </Provider>
   ), document.querySelector('.container'));
