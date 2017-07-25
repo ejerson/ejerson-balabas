@@ -5,7 +5,7 @@ export default class guidedByFear extends Component {
   render() {
     return (
       <div className='blog-entry'>
-        <img className='blog-pic' src={require('../images/blog/Guided-by-fear.jpg')} />
+        <img className='blog-pic' src={require('../images/Guidedbyfear.jpg')} />
         <h2 className='blog-quote'>“You act like mortals in all that you fear, and immortals in all that you desire.” — Daniel Goleman</h2>
         <h2 className='blog-para'>This world is governed by being right.
         If you don’t agree with one another, we simply call it an argument.
