@@ -16,7 +16,7 @@ export default class Music extends Component {
           <div className='music-philosophy'>
             <h1 className='music-philosophy-title'>why music?</h1>
 
-            <h2 className='music-philosophy-body'>
+            <h2 className='page-intro'>
               When I was a student, I performed because I wanted <span className="word-emphasis">acknowledgement</span>, but now, I want to <span className="word-emphasis">connect</span> with as many people as possible.
               Performing allows one, theoretically, to be <span className="word-emphasis">present</span> and fully <span className="word-emphasis">immerse</span>d in the moment, which was my initial <span className="word-emphasis">focus</span>.
               But as I continue working on my musicianship, I am gradually realizing that this only happens when one has moved beyond <span className="word-emphasis">technique</span>.

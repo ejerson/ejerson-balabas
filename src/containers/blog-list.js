@@ -12,7 +12,7 @@ class BlogList extends Component {
 					key={blog.title}
 					onClick={() => this.props.selectBlog(blog)}
 					className='ind-blog-title'
-					>{blog.title}    
+					>{blog.title}
 				</h3>
 			);
 		});
@@ -21,6 +21,7 @@ class BlogList extends Component {
 	render() {
 		return (
 			<div className='blog-list'>
+			<h2 className='blog-entry-title'>blog entries</h2>
 			<ul>
 				{this.renderList()}
 			</ul>

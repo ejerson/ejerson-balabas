@@ -6,7 +6,7 @@ import Fear from '../components/blog-entry/guidedByFear.js';
 class BlogDetail extends Component {
   render() {
     if (!this.props.blog) {
-      return <div>Go read some of my blog!</div>
+      return <div>Read some of my blog!</div>
     }
 
     if (this.props.blog.date = 'July 20, 2017') {
@@ -18,7 +18,7 @@ class BlogDetail extends Component {
         </div>
       );
     }
-    
+
   }
 }
 

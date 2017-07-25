@@ -12,8 +12,8 @@ export default class Music extends Component {
         <Strips />
         <Navigation />
         <div className='code-div'>
-            <h1 className='code-title'>why code?</h1>
-            <h2 className='reason-to-code'>
+            <h1 className='main-div-title'>why code?</h1>
+            <h2 className='page-intro'>
               It can be very <span className="word-emphasis">challenging. </span>
               It <span className="word-emphasis">increases</span> your <span className="word-emphasis">confidence</span> in your ability to learn.
               It <span className="word-emphasis">sharpens</span> the mind.

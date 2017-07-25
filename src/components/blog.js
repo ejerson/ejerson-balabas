@@ -18,6 +18,13 @@ export default class Blog extends Component {
 
 
       <div className='blog-div'>
+        <h1 className='main-div-title'>why blog?</h1>
+          <h2 className='page-intro'>To share ideas and create a more <span className="word-emphasis">open</span>, deep understanding of various topics
+          that are <span className="word-emphasis">important</span> to individuals. Provides a way to <span className="word-emphasis">process</span> and solve some
+          <span className="word-emphasis"> ongoing</span> questions or issues that would otherwise be ignored.
+          <span className="word-emphasis"> Create</span>s an avenue for understanding.<span className="word-emphasis"> Explore</span> different perspectives and way of life.
+          Improve and  <span className="word-emphasis">learn</span> new things and ideas.
+          </h2>
 
           <BlogList />
           <BlogDetail />
