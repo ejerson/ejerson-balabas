@@ -37,7 +37,7 @@ export default class Music extends Component {
               activity='Started learning Mongo DB, Express, React and Redux'
               resourceName='react.teachable.com'
               resourceLink='http://react.teachable.com/'
-              story='After learning how to use JQuery, adjusting to how React works was a bit challenging. I became more comfortable with react after coming across Stephen Grider video tutorials in udemy. I do believe that the best way to learn how to code is by creating projects, but in the case of react due to JavaScript fatigue, using a less stressful method helps to ease pain.'
+              story='After learning how to use JQuery, adjusting to how React works was a bit challenging. I became more comfortable with react after coming across Stephen Grider video tutorials in udemy. I do believe that the best way to learn how to code is by creating projects, but in the case of react due to JavaScript fatigue, using a less stressful method helps to ease the pain.'
             />
 
             <Timeline

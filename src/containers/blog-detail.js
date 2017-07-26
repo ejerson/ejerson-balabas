@@ -6,7 +6,7 @@ import Fear from '../components/blog-entry/guidedByFear.js';
 class BlogDetail extends Component {
   render() {
     if (!this.props.blog) {
-      return <div>Read some of my blog!</div>
+      return <div><h2>choose an article above.</h2></div>
     }
 
     if (this.props.blog.date = 'July 20, 2017') {
