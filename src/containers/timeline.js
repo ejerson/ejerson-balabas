@@ -19,7 +19,7 @@ export default class Timeline extends Component {
     <div onMouseOut={this.handleMouseLeave} onMouseOver={this.handleMouseEnter} className={this.props.classID}>
       <div className='timeline-left'>
         <h1>{this.props.month}</h1>
-        <img className='testimonial-pic' src={this.props.picture} />
+        <img className='testimonial-pic' src={require(this.props.picture)} />
         <h3 className='code-activity'>{this.props.activity}</h3>
         <a href={this.props.resourceLink}>{this.props.resourceName}</a>
       </div>
