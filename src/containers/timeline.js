@@ -10,7 +10,8 @@ export default class Timeline extends Component {
       story: '',
       activity: '',
       classID: '',
-      picture: ''
+      picture: '',
+      name: ''
     };
   }
 
