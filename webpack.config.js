@@ -12,6 +12,8 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 //   __PRERELEASE__: JSON.stringify(JSON.parse(process.env.BUILD_PRERELEASE || 'false'))
 // });
 
+
+
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 // Prevent EventEmitter leak warning
