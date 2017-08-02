@@ -29,19 +29,19 @@ export default React.createClass({
               <Timeline
                 classID='timeline-div'
                 name='Daniella Castorena'
-                picture='https://www.dropbox.com/s/jaclmqcanubsftw/Daniella.jpg?dl=0'
+                picture='https://photos-1.dropbox.com/t/2/AACZHuXCZ66UIT9H0XbdIzpkteUMTZonP6NZWTz51et-9g/12/589216228/jpeg/32x32/1/_/1/2/Daniella.jpg/EPm5uN8EGJKfGCACKAI/OKqDTL60eLcuZrGf7_vGG5qFjmO5WBPYQ1pHEWdfVzw?size=1280x960&size_mode=3'
                 story='It is refreshing to find a teacher that can inspire you professionally and personally. Ejerson makes singing fun, educational, and healthy. The journey I have been through (with Ejerson) has made an impact in my life because he approaches students, like myself, in individualized ways based on different learning styles.'
               />
               <Timeline
                 classID='timeline-div'
                 name='Trystan Harpold'
-                picture='https://www.dropbox.com/s/lmmjitbe0vgp5av/Trystan.jpg?dl=0'
+                picture='https://photos-2.dropbox.com/t/2/AAB0wO2zLmI2Z0FyUstark2HpsmyNeDzxasCQ_wF_kTFbg/12/589216228/jpeg/32x32/1/_/1/2/Trystan.jpg/EPm5uN8EGJKfGCACKAI/PooSoE2fkYSaa2bfUSGvezkJRCxMmiztduLTwi1TLqc?size=1280x960&size_mode=3'
                 story='I have worked extensively with Mr. Balabas in and out of class, and it has been an absolute pleasure. He is not only a teacher but also a mentor and a friend to his students. Always patient and provocative in his interactions with his classes. He is always interested in student progress and in higher learning. Not only this but actually cares about students opinions and weighs it when creating curriculum. Mr. Balabas has a great way of making the class informative and thought provoking while keeping the students abilities and well-being in mind. He is a fantastic teacher and a great mentor.'
               />
               <Timeline
                 classID='timeline-div'
                 name='Ashley Greer-Cuento'
-                picture='https://www.dropbox.com/s/mxbbfmgabxjw2ap/Ashley.jpg?dl=0'
+                picture='https://photos-2.dropbox.com/t/2/AABkSIQusCdhVgggj2x44e3qJYJbTo3cuIpu2EH-URwmaA/12/589216228/jpeg/32x32/1/_/1/2/Ashley.jpg/EPm5uN8EGJKfGCACKAI/eCYFHUSR1tkAfAQkiXsFIccyzFXAAHwTeUhIiLrx9y4?size=1280x960&size_mode=3'
                 story='Ejerson really found what worked for me. He shared many years of experience with me in every lesson that was tailored just for me. Ejerson&#39;s immersion and sincere sense of responsibility for his role in my progression really speak to his character and is demonstrated in his teaching. I could not recommend a more sophisticated and suitable teacher for anyone at any age or expertise.'
               />
 
