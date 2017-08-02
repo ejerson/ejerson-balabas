@@ -23,14 +23,14 @@ export default React.createClass({
               <Timeline
                 classID='timeline-div'
                 name='Cameron Lang'
-                picture='https://www.dropbox.com/s/k6c1wg90rtglhh9/Cameron.jpg?dl=0'
+                picture='https://photos-2.dropbox.com/t/2/AAA2RsKKELgphZlT91lLa4pf-mFCu-T0oqWRovFFif97zA/12/589216228/jpeg/32x32/1/_/1/2/Cameron.jpg/EPm5uN8EGJKfGCACKAI/biILhYovsyDGSyXKt71rRJTPjUA_pOtpKeyKJBziuQ0?size=1280x960&size_mode=3'
                 story='Getting to train with Ejerson over the past year and a half has helped me grow enormously as a singer and performer. It is apparent in his teaching that he really has his students best interests in mind and his ability to communicate his techniques to singers of different skill levels is incredible. He teaches you to sing in a healthy way, but he also makes you think for yourself about how you got there to make sure you really understand the techniques. Ejerson is an incredible teacher who pushes and inspires you to be better everyday. '
               />
               <Timeline
                 classID='timeline-div'
                 name='Daniella Castorena'
                 picture='https://www.dropbox.com/s/jaclmqcanubsftw/Daniella.jpg?dl=0'
-                story='It is refreshing to find a teacher that can inspire you professionally and personally. Ejerson makes singing fun, educational, and healthy. The journey I have been through has made an impact in my life by approaching students, like myself, in individualized ways based on different learning styles.'
+                story='It is refreshing to find a teacher that can inspire you professionally and personally. Ejerson makes singing fun, educational, and healthy. The journey I have been through (with Ejerson) has made an impact in my life because he approaches students, like myself, in individualized ways based on different learning styles.'
               />
               <Timeline
                 classID='timeline-div'
