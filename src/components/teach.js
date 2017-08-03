@@ -23,7 +23,7 @@ export default React.createClass({
               <Timeline
                 classID='timeline-div'
                 name='Cameron Lang'
-                picture='https://photos-2.dropbox.com/t/2/AAA2RsKKELgphZlT91lLa4pf-mFCu-T0oqWRovFFif97zA/12/589216228/jpeg/32x32/1/_/1/2/Cameron.jpg/EPm5uN8EGJKfGCACKAI/biILhYovsyDGSyXKt71rRJTPjUA_pOtpKeyKJBziuQ0?size=1280x960&size_mode=3'
+                picture='http://i1146.photobucket.com/albums/o539/e26dge/SpongeBob1_zpsctczkcyw.jpg'
                 story='Getting to train with Ejerson over the past year and a half has helped me grow enormously as a singer and performer. It is apparent in his teaching that he really has his students best interests in mind and his ability to communicate his techniques to singers of different skill levels is incredible. He teaches you to sing in a healthy way, but he also makes you think for yourself about how you got there to make sure you really understand the techniques. Ejerson is an incredible teacher who pushes and inspires you to be better everyday. '
               />
               <Timeline
