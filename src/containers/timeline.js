@@ -27,7 +27,6 @@ export default class Timeline extends Component {
       <div className='timeline-right'>
         <h2>{this.props.name}</h2>
         <h3 className='code-para'>{this.props.story}</h3>
-
       </div>
     </div>
     );
