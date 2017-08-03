@@ -52,7 +52,23 @@ iframe {
   }
 
   @media screen and (min-width: 1500px) {
-    iframe {
+    iframe{
       width: 70%;
     }
+  }
+
+  @media screen and (min-width: 660px) {
+    .music-video-timeline {
+      display: flex;
+      flex-flow: row;
+      justify-content: flex-end;
+      .music-video-left {
+        width: 100%!important;
+        height: 70%!important;
+      }
+      .music-video-right {
+        .music-video-left;
+      }
+    }
+
   }

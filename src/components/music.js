@@ -26,7 +26,17 @@ export default class Music extends Component {
             </h2>
              </div>
           <iframe src="https://www.youtube.com/embed/zsX0dnl07rY"
-          frameborder="2" allowfullscreen></iframe>
+          frameborder="0" allowfullscreen></iframe>
+          <div className='music-video-timeline'>
+            <div className='music-video-left'>
+              <iframe src="https://www.youtube.com/embed/WS8eEcMrvy0"
+              frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div className='music-video-right'>
+              <iframe src="https://www.youtube.com/embed/ToO5-NjBg1A"
+              frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
     );
