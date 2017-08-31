@@ -46,7 +46,7 @@ export default class Music extends Component {
               activity='Testing (Travis CI) and NPM Build System'
               resourceName='udemy.com'
               resourceLink='https://www.udemy.com/home/my-courses/learning/'
-              story='Learning how to test my code sucked. But I see the benefit of it. This was a tough month, the coding bootcamp I participated in seemed to loose its appeal to me. Mainly because of how much some of my pair complained during the pair programming sessions.'
+              story='Learning how to test my code sucked. But I see the benefit of it. This was a tough month.'
             />
 
             <Timeline
