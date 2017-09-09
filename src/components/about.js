@@ -1,6 +1,8 @@
 import React, { Component, PropTypes} from 'react';
 import { Link } from 'react-router';
 
+import Footer from './footer';
+
 export default class About extends Component {
 
   render() {
@@ -19,6 +21,8 @@ export default class About extends Component {
           <h2 className='mission-title'>mission</h2>
           <h3 className='mission-body'>To continue becoming a more mindful, honest, respectful, courageous, and considerate individual. To work on constantly improving myself and the world. To lessen my impact on the environment. To always seek wisdom through books, nature, situations, fellow humans and self-reflection. To always seek to build connection with all life forms. To continually maintain, pursue and refine my mission.</h3>
         </div>
+        <Footer />
+
       </div>
     );
   }

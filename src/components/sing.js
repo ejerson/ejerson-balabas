@@ -4,6 +4,7 @@ import Strips from '../containers/strips';
 import Navigation from './navigation';
 import Iframe from 'react-iframe';
 
+import Footer from './footer';
 
 export default class Sing extends Component {
 
@@ -37,7 +38,9 @@ export default class Sing extends Component {
               frameborder="0" allowfullscreen></iframe>
               <h3 className="performance-date">December 2012</h3>
           </div>
+          <Footer />
         </div>
+
       </div>
     );
   }

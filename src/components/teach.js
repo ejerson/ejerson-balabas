@@ -5,6 +5,8 @@ import Strips from '../containers/strips';
 import Navigation from './navigation';
 import Timeline from '../containers/timeline';
 
+import Footer from './footer';
+
 export default React.createClass({
   render() {
     return (
@@ -68,8 +70,10 @@ export default React.createClass({
                   </h3>
                 </div>
               </div>
+              <Footer />
 
         </div>
+
       </div>
     );
   }

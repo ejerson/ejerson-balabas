@@ -6,6 +6,8 @@ import Navigation from './navigation';
 import BlogList from '../containers/blog-list';
 import BlogDetail from '../containers/blog-detail';
 
+import Footer from './footer';
+
 export default class Write extends Component {
 
   render() {
@@ -25,7 +27,11 @@ export default class Write extends Component {
           </h2>
           <BlogList />
           <BlogDetail />
+          <Footer />
         </div>
+
+
+
       </div>
     );
   }
