@@ -5,7 +5,7 @@ import Radium from 'radium';
 
 let RadiumLink = Radium(Link);
 
-import Clicked from './navigation-click';
+import Clicked from '../containers/navigation-click';
 
 export default React.createClass({
   render() {
@@ -14,10 +14,10 @@ export default React.createClass({
         <Menu right width={ 280 } noOverlay>
           <RadiumLink className="bm-item-list" to="/"></RadiumLink>
           <RadiumLink className="bm-item-list" to="/">about</RadiumLink>
-          <RadiumLink className="bm-item-list" to="/music">music</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/sing">sing</RadiumLink>
           <RadiumLink className="bm-item-list" to="/code">code</RadiumLink>
           <RadiumLink className="bm-item-list" to="/teach">teach</RadiumLink>
-            <RadiumLink className="bm-item-list" to="/blog">blog</RadiumLink>
+            <RadiumLink className="bm-item-list" to="/write">write</RadiumLink>
         </Menu>
           <Link to={'/'}><h1 className='main-title'>EJERSON BALABAS</h1></Link>
 
@@ -27,8 +27,8 @@ export default React.createClass({
               link='/'
             />
             <Clicked
-              title='music'
-              link='/music'
+              title='sing'
+              link='/sing'
             />
 
             <Clicked
@@ -42,8 +42,8 @@ export default React.createClass({
             />
 
             <Clicked
-              title='blog'
-              link='/blog'
+              title='write'
+              link='/write'
             />
 
 

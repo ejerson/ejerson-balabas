@@ -4,7 +4,8 @@ import { Link } from 'react-router';
 import Strips from '../containers/strips';
 import NavLink from './NavLink';
 import About from './about';
-import Navigation from '../containers/navigation';
+import Navigation from './navigation';
+import Footer from './footer';
 
 
 export default class App extends Component {

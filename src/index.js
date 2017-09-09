@@ -6,8 +6,8 @@ import { createStore, applyMiddleware } from 'redux';
 
 
 import App from './components/app';
-import Blog from './components/blog';
-import Music from './components/music';
+import Write from './components/write';
+import Sing from './components/sing';
 import Code from './components/code';
 import Teach from './components/teach';
 
@@ -23,9 +23,9 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <Router history={browserHistory}>
       <Route path="/" component={App} />
-      <Route path='/music' component={Music} />
+      <Route path='/sing' component={Sing} />
       <Route path='/code' component={Code} />
-      <Route path="/blog" component={Blog} />
+      <Route path="/write" component={Write} />
       <Route path="/teach" component={Teach} />
     </Router>
   </Provider> , document.querySelector('.container'));

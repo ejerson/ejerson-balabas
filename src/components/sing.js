@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 import Strips from '../containers/strips';
-import Navigation from '../containers/navigation';
+import Navigation from './navigation';
 import Iframe from 'react-iframe';
 
 
-export default class Music extends Component {
+export default class Sing extends Component {
 
   render() {
     return (
@@ -14,7 +14,7 @@ export default class Music extends Component {
         <Navigation />
         <div className='music-div'>
           <div className='music-philosophy'>
-            <h1 className='music-philosophy-title'>why music?</h1>
+            <h1 className='music-philosophy-title'>why sing?</h1>
 
             <h2 className='page-intro'>
               When I was a student, I performed because I wanted <span className="word-emphasis">acknowledgement</span>, but now, I want to <span className="word-emphasis">connect</span> with as many people as possible.
@@ -24,14 +24,18 @@ export default class Music extends Component {
               I was no longer capable of connecting. To <span className="word-emphasis">transcend</span> beyond my ego, to be a <span className="word-emphasis">compassion</span>ate performer has been my unconscious <span className="word-emphasis">mission</span> since graduating college.
               This is still, and will always be, an <span className="word-emphasis">ongoing</span> work.
             </h2>
+            <h1 className='main-div-title'>performances</h1>
              </div>
              <div className='debussy-div'>
               <iframe className='debussy-video'src="https://www.youtube.com/embed/zsX0dnl07rY"
               frameborder="0" allowfullscreen></iframe>
+              <h3 className="performance-date">April 2016</h3>
               <iframe className='debussy-video' src="https://www.youtube.com/embed/WS8eEcMrvy0"
               frameborder="0" allowfullscreen></iframe>
+              <h3 className="performance-date">December 2013</h3>
               <iframe className='debussy-video' src="https://www.youtube.com/embed/ToO5-NjBg1A"
               frameborder="0" allowfullscreen></iframe>
+              <h3 className="performance-date">December 2012</h3>
           </div>
         </div>
       </div>

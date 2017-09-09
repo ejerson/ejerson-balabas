@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import Strips from '../containers/strips';
-import Navigation from '../containers/navigation';
+import Navigation from './navigation';
 import Timeline from '../containers/timeline';
 
 export default React.createClass({
@@ -18,7 +18,6 @@ export default React.createClass({
               As a teacher, I work to <span className="word-emphasis">relate</span> the knowledge I have acquired throughout the years,
               and ensure that my students <span className="word-emphasis">learn</span> to become <span className="word-emphasis">independent</span> learners by providing them with the tools necessary to succeed.
               </h2>
-              <hr />
               <h1 className='main-div-title'>testimonials</h1>
 
               <div className='timeline-div'>

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 import Strips from '../containers/strips';
-import Navigation from '../containers/navigation';
+import Navigation from './navigation';
 import Timeline from '../containers/timeline';
+import Footer from './footer';
+
 
 export default class Music extends Component {
 
@@ -66,7 +68,15 @@ export default class Music extends Component {
               resourceLink='https://www.freecodecamp.com'
               story='Once I&#39;ve decided to learn how to code, I initially had my reservations. Nonetheless, I went for it and narrowed my choices to either learning on my own or participating in a coding bootcamp. I went for the latter.'
             />
+            
+              <Footer />
+
+
         </div>
+
+
+
+
 
       </div>
     );
