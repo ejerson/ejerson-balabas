@@ -16,6 +16,7 @@ export default class Write extends Component {
         <Strips />
         <Navigation />
         <div className="write-div">
+          <div className='div-content'>
           <h1 className='main-div-title'>why write?</h1>
           <h2 className='page-intro'>
             To <span className="word-emphasis">share</span> ideas and <span className="word-emphasis">create</span> a more open,
@@ -27,6 +28,7 @@ export default class Write extends Component {
           </h2>
           <BlogList />
           <BlogDetail />
+          </div>
           <Footer />
         </div>
 

@@ -14,6 +14,8 @@ export default class Music extends Component {
         <Strips />
         <Navigation />
         <div className='code-div'>
+
+            <div className='div-content'>
             <h1 className='main-div-title'>why code?</h1>
             <h2 className='page-intro'>
               It can be very <span className="word-emphasis">challenging. </span>
@@ -68,11 +70,14 @@ export default class Music extends Component {
               resourceLink='https://www.freecodecamp.com'
               story='Once I&#39;ve decided to learn how to code, I initially had my reservations. Nonetheless, I went for it and narrowed my choices to either learning on my own or participating in a coding bootcamp. I went for the latter.'
             />
-            
-              <Footer />
+
+            </div>
+  <Footer />
+
 
 
         </div>
+
 
 
 

@@ -14,6 +14,7 @@ export default class Sing extends Component {
         <Strips />
         <Navigation />
         <div className='music-div'>
+          <div className='div-content'>
           <div className='music-philosophy'>
             <h1 className='music-philosophy-title'>why sing?</h1>
 
@@ -37,6 +38,7 @@ export default class Sing extends Component {
               <iframe className='debussy-video' src="https://www.youtube.com/embed/ToO5-NjBg1A"
               frameborder="0" allowfullscreen></iframe>
               <h3 className="performance-date">December 2012</h3>
+          </div>
           </div>
           <Footer />
         </div>

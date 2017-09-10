@@ -14,7 +14,7 @@ export default React.createClass({
         <Strips />
         <Navigation />
           <div className='teach-div'>
-
+            <div className='div-content'>
               <h1 className='main-div-title'>why teach?</h1>
               <h2 className='page-intro'>Teaching is something that requires <span className="word-emphasis">patience</span>, understanding, more patience, and the <span className="word-emphasis">never ending</span> quest to learn.
               As a teacher, I work to <span className="word-emphasis">relate</span> the knowledge I have acquired throughout the years,
@@ -69,10 +69,13 @@ export default React.createClass({
                     Ejerson&#39;s immersion and sincere sense of responsibility for his role in my progression really speak to his character and is demonstrated in his teaching. I could not recommend a more sophisticated and suitable teacher for anyone at any age or expertise.
                   </h3>
                 </div>
+                </div>
               </div>
-              <Footer />
+
+                <Footer />
 
         </div>
+
 
       </div>
     );
