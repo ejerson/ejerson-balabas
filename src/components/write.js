@@ -13,6 +13,7 @@ export default class Write extends Component {
   render() {
     return (
       <div>
+    
         <Strips />
         <Navigation />
         <div className="write-div">

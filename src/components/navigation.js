@@ -17,7 +17,7 @@ export default React.createClass({
           <RadiumLink className="bm-item-list" to="/sing">sing</RadiumLink>
           <RadiumLink className="bm-item-list" to="/code">code</RadiumLink>
           <RadiumLink className="bm-item-list" to="/teach">teach</RadiumLink>
-            <RadiumLink className="bm-item-list" to="/write">write</RadiumLink>
+          <RadiumLink className="bm-item-list" to="/write">write</RadiumLink>
         </Menu>
           <Link to={'/'}><h1 className='main-title'>EJERSON BALABAS</h1></Link>
 

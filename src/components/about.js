@@ -20,7 +20,7 @@ export default class About extends Component {
         <div className="mission">
           <h2 className='mission-title'>mission</h2>
           <h3 className='mission-body'><i>To continue becoming a more mindful, honest, respectful,
-          courageous, and considerate individual. To work on constantly improving myself and the world.
+          courageous, and compasionate individual. To work on constantly improving myself and the world.
           To lessen my impact on the environment. To always seek wisdom through books, nature,
           situations, fellow humans and self-reflection. To always seek to build connection
           with all life forms. To continually maintain, pursue and refine my mission.</i></h3>
