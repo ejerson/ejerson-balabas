@@ -14,7 +14,7 @@ export default class About extends Component {
           </div>
           <div>
             <h1 className='intro-title'>Hi. I&#39;m Ejerson.</h1>
-            <h3 className='intro-body'>I am a musician, web developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h3>
+            <h3 className='intro-body'>I am a musician, software developer, and teacher who aims to share my knowledge on things I care about. I teach to inspire. I code to make a difference. I sing to connect.</h3>
           </div>
         </div>
         <div className="mission">
