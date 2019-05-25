@@ -4,7 +4,7 @@
   "description": "portfolio website for Ejerson Balabas",
   "main": "index.js",
   "engines": {
-    "node": "6.4.1",
+    "node": "10.15.3",
     "npm": "10.15.3"
   },
   "scripts": {
