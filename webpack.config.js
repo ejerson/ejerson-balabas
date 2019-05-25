@@ -47,7 +47,7 @@ module.exports = {
 
         loaders: [
             'file?hash=sha512&digest=hex&name=[name].[ext]',
-            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+            'image-webpack?bypassOnDebug'
         ]
     },
 
