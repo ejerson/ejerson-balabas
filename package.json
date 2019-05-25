@@ -4,8 +4,8 @@
   "description": "portfolio website for Ejerson Balabas",
   "main": "index.js",
   "engines": {
-    "node": "6.11.1",
-    "npm": "3.10.10"
+    "node": "6.4.1",
+    "npm": "10.15.3"
   },
   "scripts": {
     "build": "webpack --display-error-details",
